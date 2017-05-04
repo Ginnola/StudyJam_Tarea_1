@@ -19,7 +19,7 @@ Dentro de Android Studio:
 
 * File --> New --> Import Project
 * Seleccionas la ruta donde hiciste el `clone` del proyecto.
-* Build --> Rebuild Project
+* Build --> Rebuild  Project
 * Run
 
 ## Captura
