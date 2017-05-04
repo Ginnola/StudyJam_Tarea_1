@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:alpha="0.7">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idioma"
+            android:textSize="@dimen/letra"
+            android:textColor="@color/colorLetra"
+            android:layout_gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/instagramlogo"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:textColor="@color/colorLetra"
+            android:textColorHint="@color/colorLetra"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBoton"
+            android:padding="13dp"
+            android:backgroundTint="@color/colorBoton"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contraseña"
+            android:textColor="@color/colorLetra"
+            android:textColorHint="@color/colorLetra"
+            android:background="@color/colorBoton"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="13dp"
+            android:backgroundTint="@color/colorBoton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sesion"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/boton"
+            android:textColor="@color/colorLetra"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olvidado"
+            android:textSize="@dimen/letra"
+            android:textColor="@color/colorLetra"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ayuda"
+            android:textSize="@dimen/letra"
+            android:textColor="@color/colorLetra"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal">
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:background="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"></View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLetra"
+                android:text="O"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="120dp"
+                android:layout_height="1dp"
+                android:background="#fff"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"></View>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/boton2"
+                android:drawableLeft="@drawable/ic_stat_name"
+                android:text="@string/facebook"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuenta"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/letra2"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorLetra"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrate"
+            android:layout_alignParentBottom="true"
+            android:textSize="@dimen/letra2"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorLetra"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
